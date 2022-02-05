@@ -1,0 +1,278 @@
+#logo-container-black{
+    background-image: url("View/images/spotify_black.png");
+    margin-top: 24px;
+}
+
+#registation-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reg-text{
+    color: black;
+    text-transform: none;
+    line-height: 36px;
+    font-size: 32px;
+    margin-top: 30px;
+    letter-spacing: -0.04em;
+}
+
+#signup-facebook{
+    background-color: rgb(24,119,242);
+    color: white;
+    width: 233px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: none;
+    font-family: circular, Helvetica, Arial, sans-serif; 
+    margin-top: 35px;
+}
+
+#signup-facebook:hover{
+    background-color: rgb(56, 135, 240);
+    width: 235px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#reg-form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    font-weight: 700;
+    font-family: circular;
+    margin-top: 28px;
+}
+
+#reg-email, #confirm-email, #reg-password, #reg-username, #day, #month, #year, #login-password, #login-email{
+    width: 450px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    box-sizing: border-box;
+    font-family: circular;
+    text-indent: 20px;
+    margin-top: 5px;
+}
+
+#or-reg{
+    text-transform: none;
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+#email-reg-text{
+    color: black;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 36px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+#birthdate-reg-text{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    font-weight: 700;
+    color: black;
+    text-transform: none;
+    margin-top: 20px;
+}
+
+#day{
+    width: 90px;
+}
+
+#birtdate{
+    margin-top: 20px;
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+}
+
+#month{
+    width: 200px;
+}
+
+#year{
+    width: 112px;
+}
+
+#radio-btns{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#radio-btns label{
+    margin-left: 15px;
+}
+
+#sign-up-container{
+    width: 450px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#sign-up-btn{
+    background-color: #1ed760;
+    color: black;
+    width: 150px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    align-self: center;
+
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: circular, Helvetica, Arial, sans-serif; 
+    
+}
+
+
+#sign-up-btn:hover{
+    background-color: #3cd471;
+    width: 152px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#facebook-container{
+    height: 60px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-logo{
+    background-image: url("View/images/spotify_black.png");
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 190px;
+    height: 65px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+hr{
+    width: 99vw;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+#log-in-btn{
+    background-color: #1ed760;
+    color: black;
+    width: 124px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    align-self: center;
+
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: circular, Helvetica, Arial, sans-serif; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#log-in-btn:hover{
+    background-color: #41d173;
+    width: 126px;
+    height: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#divide-login{
+    width: 450px;
+}
+
+#go-to-reg-text{
+    text-transform: none;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+#go-to-reg-btn{
+    font-size: 16px;
+    color: rgb(106,106,106);
+    border: 1px solid rgb(106,106,106);
+    font-family: circular, Helvetica, Arial, sans-serif;
+    width: 450px;
+    height: 48px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#go-to-reg-btn:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#login-container{
+    width: 450px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+#go-to-login-text{
+    display: inline;
+    color: black;
+}
+
+#go-to-login{
+    color: #1ed760;
+    width: 70px;
+}
+
+#text-container{
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    flex-direction: row;
+    margin-bottom: 20px;
+}

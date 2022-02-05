@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="icon" type="image/x-icon" href="View/images/spotify_favicon.png">
+    <link rel="stylesheet" href="prehome_style.css">
+    <link rel="stylesheet" href="register_login_style.css">
+    <style>
+        aside{
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+        }
+
+        aside a{
+            
+        }
+
+        #home{
+            height: 100vh;
+        }
+
+        #home-main{
+
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- prehome part -->
+    <div id="pre-home">
+        <nav>
+            <div id="logo-container-white"></div>
+            <div id="btns-container">
+                <div class="nav-btn"><a href="">Premium</a></div>
+                <div class="nav-btn"><a href="">Support</a></div>
+                <div class="nav-btn"><a href="" id="download">Download</a></div>
+                <div class="nav-btn"><a href="#register">Sign up</a></div>
+                <div class="nav-btn"><a href="#login">Login</a></div>
+            </div>
+        </nav>
+        <main id="pre-home-main">
+            <div id="img-container">
+                <p class="main-text">Listening is</p>
+                <p class="main-text">&nbsp; &nbsp; &nbsp;  everything</p>
+                
+                <p id="side-text">Millions of songs and podcasts. No credit card needed.</p>
+                <div id="get-spotify">
+                    Get spotify free
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div id="more-nav">
+                <div id="logo-container-white"></div>
+                <div id="company">
+                    <p>COMPANY</p>
+                    
+                    <a href="">About</a>
+                    <a href="">Jobs</a>
+                    <a href="">For The Record</a>
+                </div>
+                <div id="communities">
+                    <p>COMMUNITIES</p>
+                    
+                    <a href="">For Artists</a>
+                    <a href="">Developers</a>
+                    <a href="">Advertising</a>
+                    <a href="">Investors</a>
+                    <a href="">Vendors</a>
+                    
+                </div>
+                <div id="links">
+                    <p>USEFUL LINKS</p>
+                    <a href="">Support</a>
+                    <a href="">Web Player</a>
+                    <a href="">Free Mobile App</a>
+                </div>
+                <div id="extra-btns">
+
+                    <div id="social-btn-insta">
+                        <div id="insta-btn">
+                            <div></div>
+                            <img src="View/images/insta.svg" alt="instagram" id="insta-container">
+                        </div>
+                    </div>
+                    
+                    <div id="social-btn-twitter">
+                        <div id="twitter-btn">
+                            <div></div>
+                            <img src="View/images/twitter.svg" alt="twitter" id="twitter-container">
+                        </div>
+                    </div>
+                    
+                    <div id="social-btn-face">
+                        <div id="face-btn">
+                            <div></div>
+                            <img src="View/images/face.svg" alt="facebook"  id="face-container">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- end of prehome -->
+
+    <!-- registration page -->
+    <div id="registation-page">
+        <div id="logo-container-black"></div>
+        <p id="reg-text">Sign up for free to start listening.</p>
+        <div id="facebook-container">
+            <div id="signup-facebook">
+                Sign up with Facebook
+            </div>
+        </div>
+        
+        <p id="or-reg">&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar; &nbsp; &nbsp; or &nbsp; &nbsp; &horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;&horbar;</p>
+        <p id="email-reg-text">Sign up with your email address</p>
+        <form action="post" id="reg-form">
+            <label for="reg-email">What's your email?</label>
+            <input type="text" id="reg-email" placeholder="Enter your email.">
+            <label for="confirm-email">Confirm your email</label>
+            <input type="text" id="confirm-email" placeholder="Enter your email again.">
+            <label for="reg-password">Create a password</label>
+            <input type="password" id="reg-password" placeholder="Create a password.">
+            <label for="reg-username">What should we call you?</label>
+            <input type="text" id="reg-username" placeholder="Enter a profile name.">
+            <p id="birthdate-reg-text">What's your date of birth?</p>
+            <div id="birtdate">
+                <div class="container-date">
+                    <label for="day">Day</label><br>
+                    <input type="text" id="day" placeholder="DD">
+                </div>
+                <div class="container-date">
+                    <label for="month">Month</label><br>
+                    <select id="month">
+                        <option value="January">January</option>
+                        <option value="February">February</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">August</option>
+                        <option value="October">October</option>
+                        <option value="November">November</option>
+                        <option value="December">December</option>
+                    </select>
+                </div>
+                <div class="container-date">
+                    <label for="year">Year</label><br>
+                    <input type="text" id="year" placeholder="YYYY">
+                </div>
+            </div>
+            <label for="radio-btns">What's your gender?</label>
+            <div id="radio-btns">
+                <div id="male">
+                    <input type="radio" name="gender" id="male-rad">
+                    <label for="male-rad">Male</label>
+                </div>
+                
+                <div id="female">
+                    <input type="radio" name="gender" id="female-rad">
+                    <label for="female-rad">Female</label>
+                </div>
+            </div>
+
+            <div id="sign-up-container">
+                <div id="sign-up-btn"> Sign up </div>
+            </div>
+            
+            <div id="text-container">
+                <p id="go-to-login-text">Have an account?</p>
+                <a id="go-to-login" href="#login">Log in</a>
+                <p>.</p>
+            </div>
+            
+            
+        </form>
+    </div>
+    <!-- end of registration page -->
+
+    <!-- login page -->
+    <div id="login">
+        <div id="login-logo">
+        </div>
+        <hr>
+        <form action="post" id="login-form">
+            <label for="login-email">Email address or username</label>
+            <input type="text" id="login-email" placeholder="Email address or username.">
+            
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" placeholder="Password">
+
+            <div id="login-container">
+                <div id="log-in-btn"> LOG IN </div>
+            </div>
+            <hr id="divide-login">
+            <p id="go-to-reg-text">Don't have an account?</p>
+            
+            <div id="go-to-reg-btn">SIGN UP FOR SPOTIFY</div>
+        </form>
+    </div>
+    <!-- end of login page -->
+
+    <!-- home page -->
+    <div id="home">
+        <aside>
+            <a href="#home">Home</a>
+            <a href="#search">Search</a>
+            <a href="#library">Your Library</a>
+
+            <a href="">Create Playlist</a>
+            <a href="#liked">Liked Songs</a>
+        </aside>
+        <main id="home-main">
+
+        </main>
+    </div>
+
+    <script src="Models/date.js"></script>
+    <script src="Models/user.js"></script>
+    <script src="Controller/userController.js"></script>
+    <script src="Controller/login.js"></script>
+    <script src="Controller/registration.js"></script>
+    <script src="Controller/navigationController.js"></script>
+</body>
+</html>
